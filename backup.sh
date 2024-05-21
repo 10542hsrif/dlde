@@ -1,4 +1,4 @@
-sudo apt install -y vim lightdm i3 i3lock lxappearance feh qutebrowser ranger gnome-disk-utility polybar zathura alacritty pavucontrol bluez mpv unzip neofetch rofi conky brave python3 python3-pip git scrot
+sudo apt install -y vim lightdm i3 i3lock lxappearance feh qutebrowser ranger gnome-disk-utility polybar zathura alacritty pavucontrol bluez mpv neofetch rofi conky brave python3 python3-pip git scrot ytfzf vlc xorg lightdm lightdm-slick-greeter
 tar -xvf powerline-shell.tar.gz ; cd powerline-shell ; python3 setup.py install
 cd ..
 git clone https://gitlab.com/10542hsrif/gruvbox-dark-gtk ~/.themes/gruvbox-dark-gtk
