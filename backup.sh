@@ -6,9 +6,10 @@ tar -xvf gruvbox_dark.tar.gz ; mv gruvbox_dark/ ~/.icons/
 tar -xvf solarized.tar.gz ; mv solarized ~/.themes/
 tar -xvf solarized-icons.tar.gz ; mv solarized-icons ~/.icons/
 tar -xvf polybar.tar.gz ; mv polybar/ ~/.config/
-tar -xvf vim.tar.gz ; cp -r vim/ .vim/ ; rm -rf vim/ ;  mv .vim/ $HOME ; mv .vimrc $HOME
+tar -xvf vim.tar.gz ; cp -r vim/ .vim/ ; rm -rf vim/ ;  mv .vim/ $HOME
+cp vimrc .vimrc ; rm vimrc ; mv .vimrc $HOME
 tar -xvf rofi.tar.gz ; mv rofi/ ~/.config/
-mv .bashrc $HOME
+cp bashrc .bashrc ; rm bashrc ; mv .bashrc $HOME
 mv conky/ ~/.config/
 mv i3/ ~/.config/
 sudo mv lightdm.conf /etc/lightdm/
