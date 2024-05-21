@@ -12,3 +12,6 @@ tar -xvf rofi.tar.gz ; mv rofi/ ~/.config/
 mv .bashrc $HOME
 mv conky/ ~/.config/
 mv i3/ ~/.config/
+sudo mv lightdm.conf /etc/lightdm/
+clear
+echo "Installation complete, you may start configuring the system"
