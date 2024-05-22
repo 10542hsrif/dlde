@@ -1,4 +1,4 @@
-sudo apt install -y vim lightdm i3 i3lock lxappearance feh qutebrowser ranger gnome-disk-utility polybar zathura xfce4-terminal pavucontrol bluez mpv neofetch rofi conky brave python3 python3-pip git scrot ytfzf vlc xorg lightdm lightdm-slick-greeter guvcview lightdm-settings xrand arandr
+sudo apt install -y vim lightdm i3 i3lock lxappearance feh qutebrowser ranger gnome-disk-utility polybar zathura xfce4-terminal pavucontrol bluez mpv neofetch rofi conky brave python3 python3-pip git scrot ytfzf vlc xorg lightdm lightdm-slick-greeter guvcview lightdm-settings xrand arandr btop libreoffice*
 tar -xvf powerline-shell.tar.gz ; cd powerline-shell ; python3 setup.py install
 cd ..
 git clone https://gitlab.com/10542hsrif/gruvbox-dark-gtk ~/.themes/gruvbox-dark-gtk
@@ -15,4 +15,4 @@ mv i3/ ~/.config/
 sudo mv lightdm.conf /etc/lightdm/
 sudo systemctl enable lightdm
 clear
-echo "Installation complete, you may start configuring the system"
+echo "Installation complete."
