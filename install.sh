@@ -10,7 +10,8 @@ tar -xvf solarized.tar.gz ; mv solarized ~/.themes/solarized/
 tar -xvf solarized-icons.tar.gz ; mv solarized-icons ~/.icons/solarized-icons/
 git clone https://github.com/adi1090x/polybar-themes
 cd polybar-themes/
-sh setup.sh
+chmod +x setup.sh
+./setup.sh
 cd $HOME/dlde/
 tar -xvf vim.tar.gz ; cp -r vim/ .vim/ ; rm -rf vim/ ;  mv .vim/ $HOME/.vim/
 tar -xvf xfce4.tar.gz ; mv xfce4 ~/.config/xfce4/
