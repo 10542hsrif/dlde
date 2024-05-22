@@ -1,6 +1,10 @@
 sudo apt install -y vim lightdm i3 i3lock lxappearance feh qutebrowser ranger gnome-disk-utility polybar zathura xfce4-terminal pavucontrol bluez mpv neofetch rofi conky python3 python3-pip git scrot ytfzf vlc xorg lightdm slick-greeter guvcview lightdm-settings arandr btop libreoffice chrony
 tar -xvf powerline-shell.tar.gz ; cd powerline-shell ; sudo python3 setup.py install
 cd $HOME/dlde/
+git clone https://github.com/ryanoasis/nerd-fonts
+cd nerd-fonts/
+sh install.sh
+cd $HOME/dlde/
 mkdir .themes/
 git clone https://gitlab.com/10542hsrif/gruvbox-dark-gtk ~/.themes/gruvbox-dark-gtk
 mkdir .icons/
