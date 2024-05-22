@@ -6,9 +6,11 @@ driver = input("Do you want to install legacy NVIDIA drivers? (Y/n): ").strip().
 
 if driver in ["y", "Y", "yes", "Yes"]:
     os.system('sh apt-sid.sh')
+    os.system('systemctl reboot')
 elif driver in ["n", "N", "no", "No"]:
     exit()
 else:
     os.system('sh apt-sid.sh')
+    os.system('systemctl reboot')
 
 exit()
