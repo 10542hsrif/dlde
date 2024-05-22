@@ -20,6 +20,7 @@ tar -xvf rofi.tar.gz ; mv rofi/ ~/.config/rofi/
 cp bashrc .bashrc ; rm bashrc ; mv .bashrc $HOME/.bashrc
 mv conky/ ~/.config/conky/
 mv i3/ ~/.config/
+mv gtk-3.0/ ~/.config/
 mv wallpapers/ $HOME
 sudo mv lightdm.conf /etc/lightdm/lightdm.conf
 sudo systemctl enable lightdm
