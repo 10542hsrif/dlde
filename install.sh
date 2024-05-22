@@ -13,7 +13,10 @@ mkdir .icons/
 tar -xvf gruvbox_dark.tar.gz ; mv gruvbox_dark/ ~/.icons/gruvbox_dark/
 tar -xvf solarized.tar.gz ; mv solarized ~/.themes/solarized/
 tar -xvf solarized-icons.tar.gz ; mv solarized-icons ~/.icons/solarized-icons/
-tar -xvf polybar.tar.gz ; mv polybar/ ~/.config/polybar/
+git clone https://github.com/adi1090x/polybar-themes
+cd polybar-themes
+sh setup.sh
+cd $HOME/dlde/
 tar -xvf vim.tar.gz ; cp -r vim/ .vim/ ; rm -rf vim/ ;  mv .vim/ $HOME/.vim/
 tar -xvf xfce4.tar.gz ; mv xfce4 ~/.config/xfce4/
 cp vimrc .vimrc ; rm vimrc ; mv .vimrc $HOME/.vimrc
