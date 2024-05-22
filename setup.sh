@@ -7,6 +7,7 @@ tar -xvf solarized.tar.gz ; mv solarized ~/.themes/
 tar -xvf solarized-icons.tar.gz ; mv solarized-icons ~/.icons/
 tar -xvf polybar.tar.gz ; mv polybar/ ~/.config/
 tar -xvf vim.tar.gz ; cp -r vim/ .vim/ ; rm -rf vim/ ;  mv .vim/ $HOME
+tar -xvf xfce4.tar.gz ; mv xfce4 ~/.config/
 cp vimrc .vimrc ; rm vimrc ; mv .vimrc $HOME
 tar -xvf rofi.tar.gz ; mv rofi/ ~/.config/
 cp bashrc .bashrc ; rm bashrc ; mv .bashrc $HOME
@@ -15,4 +16,6 @@ mv i3/ ~/.config/
 sudo mv lightdm.conf /etc/lightdm/
 sudo systemctl enable lightdm
 clear
-echo "Installation complete."
+echo "Installation complete. Opening legacy NVIDIA installer..."
+sleep 5
+python3 nvidia.py
