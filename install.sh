@@ -1,8 +1,7 @@
-sudo apt install -y vim lightdm i3 i3lock lxappearance feh qutebrowser ranger gnome-disk-utility polybar zathura xfce4-terminal pavucontrol bluez mpv neofetch rofi conky python3 python3-pip git scrot ytfzf vlc xorg lightdm slick-greeter guvcview lightdm-settings arandr btop libreoffice chrony
+sudo apt install -y vim lightdm i3 i3lock lxappearance feh qutebrowser ranger gnome-disk-utility polybar zathura xfce4-terminal pavucontrol bluez mpv neofetch rofi conky python3 python3-pip git scrot ytfzf vlc xorg lightdm slick-greeter guvcview lightdm-settings arandr btop libreoffice chrony fonts-fantasque-sans fonts-droid-fallback xfonts-terminus
 tar -xvf powerline-shell.tar.gz ; cd powerline-shell ; sudo python3 setup.py install
 cd $HOME/dlde/
-git clone https://github.com/ryanoasis/nerd-fonts
-cd nerd-fonts/
+sudo dpkg -i --force-depends *.deb
 sh install.sh
 cd $HOME/dlde/
 mkdir .themes/
@@ -18,7 +17,8 @@ cp vimrc .vimrc ; rm vimrc ; mv .vimrc $HOME/.vimrc
 tar -xvf rofi.tar.gz ; mv rofi/ ~/.config/rofi/
 cp bashrc .bashrc ; rm bashrc ; mv .bashrc $HOME/.bashrc
 mv conky/ ~/.config/conky/
-mv i3/ ~/.config/i3/
+mv i3/ ~/.config/
+mv wallpapers/ $HOME
 sudo mv lightdm.conf /etc/lightdm/lightdm.conf
 sudo systemctl enable lightdm
 sudo killall chrony
