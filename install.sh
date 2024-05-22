@@ -1,7 +1,9 @@
 sudo apt install -y vim lightdm i3 i3lock lxappearance feh qutebrowser ranger gnome-disk-utility polybar zathura xfce4-terminal pavucontrol bluez mpv neofetch rofi conky python3 python3-pip git scrot ytfzf vlc xorg lightdm slick-greeter guvcview lightdm-settings arandr btop libreoffice chrony
 tar -xvf powerline-shell.tar.gz ; cd powerline-shell ; sudo python3 setup.py install
 cd $HOME/dlde/
+mkdir .themes/
 git clone https://gitlab.com/10542hsrif/gruvbox-dark-gtk ~/.themes/gruvbox-dark-gtk
+mkdir .icons/
 tar -xvf gruvbox_dark.tar.gz ; mv gruvbox_dark/ ~/.icons/gruvbox_dark/
 tar -xvf solarized.tar.gz ; mv solarized ~/.themes/solarized/
 tar -xvf solarized-icons.tar.gz ; mv solarized-icons ~/.icons/solarized-icons/
@@ -16,7 +18,7 @@ mv i3/ ~/.config/i3/
 sudo mv lightdm.conf /etc/lightdm/lightdm.conf
 sudo systemctl enable lightdm
 sudo killall chrony
-timedatectl set-local-rtc 1 --adjust-system-clock
+sudo timedatectl set-local-rtc 1 --adjust-system-clock
 clear
 echo "Installation complete. Opening legacy NVIDIA installer..."
 sleep 5
