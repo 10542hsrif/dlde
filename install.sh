@@ -1,22 +1,15 @@
 sudo apt install -y vim lightdm i3 i3lock lxappearance feh qutebrowser ranger gnome-disk-utility polybar zathura xfce4-terminal pavucontrol bluez mpv neofetch rofi conky python3 python3-pip git scrot ytfzf vlc xorg lightdm slick-greeter guvcview lightdm-settings arandr btop libreoffice chrony fonts-fantasque-sans fonts-droid-fallback xfonts-terminus fonts-material-design-icons-iconfont curl unzip wget
 sudo apt --fix-broken install
-wget https://sid.ethz.ch/debian/fonts-iosevka/fonts-iosevka_22.0.0%2Bds-1_all.deb
 tar -xvf powerline-shell.tar.gz ; cd powerline-shell ; sudo python3 setup.py install
 cd $HOME/dlde/
-sudo dpkg -i --force-depends *.deb
-sh install.sh
-git clone https://github.com/stark/siji
-cd siji/
-sh install.sh
-cd $HOME/dlde/
-mkdir .themes/
+mkdir $HOME/.themes/
 git clone https://gitlab.com/10542hsrif/gruvbox-dark-gtk ~/.themes/gruvbox-dark-gtk
-mkdir .icons/
+mkdir $HOME/.icons/
 tar -xvf gruvbox_dark.tar.gz ; mv gruvbox_dark/ ~/.icons/gruvbox_dark/
 tar -xvf solarized.tar.gz ; mv solarized ~/.themes/solarized/
 tar -xvf solarized-icons.tar.gz ; mv solarized-icons ~/.icons/solarized-icons/
 git clone https://github.com/adi1090x/polybar-themes
-cd polybar-themes
+cd polybar-themes/
 sh setup.sh
 cd $HOME/dlde/
 tar -xvf vim.tar.gz ; cp -r vim/ .vim/ ; rm -rf vim/ ;  mv .vim/ $HOME/.vim/
