@@ -8,8 +8,8 @@ mkdir $HOME/.icons/
 tar -xvf gruvbox_dark.tar.gz ; mv gruvbox_dark/ ~/.icons/gruvbox_dark/
 tar -xvf solarized.tar.gz ; mv solarized ~/.themes/solarized/
 tar -xvf solarized-icons.tar.gz ; mv solarized-icons ~/.icons/solarized-icons/
-git clone https://github.com/adi1090x/polybar-themes
-cd polybar-themes/
+git clone https://github.com/10542hsrif/dlde-polybar
+cd dlde-polybar/
 chmod +x setup.sh
 ./setup.sh
 cd $HOME/dlde/
