@@ -5,7 +5,7 @@
 ![screenshot](screenshot3.png)
 ![screenshot](screenshot4.png)
 
-**This is a lightweight desktop environment that I use to my daily computing activities.**
+**This is a lightweight desktop environment that I use to my daily computing activities. Users of this desktop environment is already assumed to be a somewhat an advanced Linux user. This is not recommended for those who are new to Linux, but you may still try this out.**
 
 You  may download this repository via GitHub to install the desktop environment. Just unzip the file and run to the terminal the following command:
 
@@ -46,6 +46,6 @@ It is also recommended to install the desktop environment with a live installer 
 1. It is recommended for new users to go to lightdm-settings (Login Window), and tweak the autologin part of it.
 2. lxappearance (Customize Look and Feel) may be opened to configure the appearance settings.
 3. `./.config/polybar/launch.sh` may be run to change the bar.
-4. More ricing options at the `.config/i3/config` file.
+4. More ricing options at the `.config/i3/config` file. You may also read the aforementioned file to understand its keybindings.
 5. Either `nitrogen` or `feh` may be used as a wallpaper setter.
 6. The repo folder is advised to be at the `$HOME` directory in order to avoid any conflicts or problems.
