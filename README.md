@@ -1,5 +1,7 @@
 # Door Lightweight Desktop Environment (Debian Edition)
 
+![screenshot](screenshot.png)
+
 **This is a lightweight desktop environment that I use to my daily computing activities.**
 
 You  may download this repository via GitHub to install the desktop environment. Just unzip the file and run to the terminal the following command:
