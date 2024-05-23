@@ -1,4 +1,4 @@
-sudo apt install -y vim lightdm i3 i3lock lxappearance feh qutebrowser ranger gnome-disk-utility polybar zathura xfce4-terminal pavucontrol bluez mpv neofetch rofi conky python3 python3-pip git scrot ytfzf vlc xorg lightdm slick-greeter guvcview lightdm-settings arandr btop libreoffice chrony fonts-fantasque-sans fonts-droid-fallback xfonts-terminus fonts-material-design-icons-iconfont curl unzip wget
+sudo apt install -y vim lightdm i3 i3lock lxappearance feh qutebrowser ranger gnome-disk-utility polybar zathura xfce4-terminal pavucontrol bluez mpv neofetch rofi conky python3 python3-pip git scrot ytfzf vlc xorg lightdm slick-greeter guvcview lightdm-settings arandr btop libreoffice chrony fonts-fantasque-sans fonts-droid-fallback xfonts-terminus fonts-material-design-icons-iconfont curl unzip wget fonts-powerline
 sudo apt --fix-broken install
 tar -xvf powerline-shell.tar.gz ; cd powerline-shell ; sudo python3 setup.py install
 cd $HOME/dlde/
