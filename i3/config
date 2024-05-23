@@ -150,7 +150,7 @@ bindsym $mod+Shift+c reload
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
 bindsym $mod+Shift+r restart
 # exit i3 (logs you out of your X session)
-bindsym $mod+Shift+e exec mpv --ao=alsa --start=00:00:00 /usr/share/sounds/freedesktop/stereo/service-logout.oga && i3-msg exit
+bindsym $mod+Shift+e exec mpv --ao=alsa --start=00:00:00 /usr/share/sounds/sound-icons/electric-piano-3.wav && i3-msg exit
 
 # resize window (you can also use the mouse for that)
 mode "resize" {
@@ -184,7 +184,7 @@ bindsym $mod+r mode "resize"
 
 default_border none
 default_floating_border none
-exec_always mpv --ao=alsa /usr/share/sounds/freedesktop/stereo/service-login.oga
+exec_always mpv --ao=alsa /usr/share/sounds/sound-icons/start
 bindsym $mod+x exec sh $HOME/.config/i3/lock.sh
 bindsym $mod+b exec qutebrowser
 bindsym $mod+d exec ./.config/polybar/hack/scripts/launcher.sh
@@ -196,8 +196,8 @@ bindsym Print exec scrot
 bindsym XF86MonBrightnessUp exec xbacklight +5%
 bindsym XF86MonBrightnessDown exec xbacklight -5% 
 exec_always xbacklight -80%
-bindsym $mod+Shift+ctrl+r exec mpv --ao=alsa --start=00:00:00 /usr/share/sounds/freedesktop/stereo/service-logout.oga && systemctl reboot
-bindsym $mod+Shift+s exec mpv --ao=alsa --start=00:00:00 /usr/share/sounds/freedesktop/stereo/service-logout.oga && systemctl poweroff
+bindsym $mod+Shift+ctrl+r exec mpv --ao=alsa --start=00:00:00 /usr/share/sounds/sound-icons/electric-piano-3.wav && systemctl reboot
+bindsym $mod+Shift+s exec mpv --ao=alsa --start=00:00:00 /usr/share/sounds/sound-icons/electric-piano-3.wav && systemctl poweroff
 
 # default gaps
 gaps inner 5
