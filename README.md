@@ -28,6 +28,8 @@ to change directory of the installer, then:
 
 to start the installer. Answer the questions during installation. This may take a while. Be patient.
 
+>Note: This repo isn't updated as frequent as other acively developed desktop environments. The developer focuses more on the stability of the software and adheres to the UNIX philosophy so updates or new features won't come unless needed or requested. If you (the user) wants to add new features to the software, the developer is encouraging you to put it in the "Issues" tab. Anyone may contribute to the code freely as they wish. Just make sure that you apply a pull request whenever you make modifications to the software.
+
 **Recommendations**
 
 1. It is recommended for new users to go to lightdm-settings (Login Window), and tweak the autologin part of it.
@@ -35,4 +37,4 @@ to start the installer. Answer the questions during installation. This may take 
 3. `./.config/polybar/launch.sh` may be run to change the bar.
 4. More ricing options at the `.config/i3/config` file.
 5. Either `nitrogen` or `feh` may be used as a wallpaper setter.
-6. The repo folder should be at the `$HOME` directory in order to avoid any conflicts or problems.
+6. The repo folder is advised to be at the `$HOME` directory in order to avoid any conflicts or problems.
