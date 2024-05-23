@@ -32,6 +32,7 @@ The system will then reboot. After you logged in at you freshly installed DLDE, 
 ```sudo rm -rf dlde/```
 
 Remember to include the ```sudo``` command as the directory won't permit you to delete itself without sudo privileges.
+It is also recommended to install the desktop environment with a live installer that includes another DE, so that ```nmtui``` utility will work well.
 
 >Note: This repo isn't updated as frequent as other acively developed desktop environments. The developer focuses more on the stability of the software and adheres to the UNIX philosophy so updates or new features won't come unless needed or requested. If you (the user) wants to add new features to the software, the developer is encouraging you to put it in the "Issues" tab. Anyone may contribute to the code freely as they wish. Just make sure that you apply a pull request whenever you make modifications to the software.
 
