@@ -33,3 +33,4 @@ to start the installer. Answer the questions during installation. This may take 
 3. `./.config/polybar/launch.sh` may be run to change the bar.
 4. More ricing options at the `.config/i3/config` file.
 5. Either `nitrogen` or `feh` may be used as a wallpaper setter.
+6. The repo folder should be at the `$HOME` directory in order to avoid any conflicts or problems.
